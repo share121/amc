@@ -1,0 +1,37 @@
+name: amc
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  window_manager: ^0.3.9
+  system_theme: ^3.0.0
+  metadata_god: ^0.5.2+1
+  path: ^1.9.0
+  mime: ^1.0.5
+  schedulers: ^1.0.1
+  audioplayers: ^6.0.0
+  flutter_animate: ^4.5.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: MiSans
+      fonts:
+        - asset: fonts/MiSans.ttf
